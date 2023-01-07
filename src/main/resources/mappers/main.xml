@@ -5,9 +5,9 @@
 <mapper namespace="com.haessae0.springtravel.dao.DeptDao">
     <select id="selectList" parameterType="com.haessae0.springtravel.model.Dept"
             resultType="com.haessae0.springtravel.model.Dept">
-        SELECT deptno
-             , dname
-             , loc
+        SELECT DECODE(DEPTNO, '1', '일') AS DEPTNO
+             , DNAME
+             , DECODE(LOC, '1', '서울')   AS LOC
         FROM DEPT
     </select>
 </mapper>
