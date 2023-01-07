@@ -1,12 +1,16 @@
 package com.haessae0.springtravel.controller;
 
-import org.springframework.stereotype.Controller;
+import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
+@RequestMapping("/GAW")
+@RequiredArgsConstructor
 public class MainController {
 
-    @GetMapping("/GAW")
+    @GetMapping("/")
     public String index() {
         return "index";
     }

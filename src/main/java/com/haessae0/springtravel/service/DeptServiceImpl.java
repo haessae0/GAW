@@ -1,7 +1,7 @@
 package com.haessae0.springtravel.service;
 
-import com.haessae0.springtravel.dao.DeptDao;
 import com.haessae0.springtravel.model.Dept;
+import com.haessae0.springtravel.repository.DeptDao;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;

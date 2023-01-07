@@ -1,4 +1,4 @@
-package com.haessae0.springtravel.dao;
+package com.haessae0.springtravel.repository;
 
 import com.haessae0.springtravel.model.Dept;
 import org.apache.ibatis.annotations.Mapper;

@@ -1,7 +1,7 @@
 package com.haessae0.springtravel.controller;
 
-import com.haessae0.springtravel.dao.DeptDao;
 import com.haessae0.springtravel.model.Dept;
+import com.haessae0.springtravel.repository.DeptDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

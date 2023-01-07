@@ -2,7 +2,7 @@
 
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTO Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.haessae0.springtravel.dao.DeptDao">
+<mapper namespace="com.haessae0.springtravel.repository.DeptDao">
     <select id="selectList" parameterType="com.haessae0.springtravel.model.Dept"
             resultType="com.haessae0.springtravel.model.Dept">
         SELECT DECODE(DEPTNO, '1', '일') AS DEPTNO
